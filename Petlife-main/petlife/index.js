@@ -1,6 +1,6 @@
-var elementosDuvida = document.querySelectorAll('.duvida')
-elementosDuvida.forEach(function (duvida) { 
-    duvida.addEventListener('click', function () { 
-        duvida.classList.toggle('ativa')
+var elementosDuvida = document.querySelectorAll('.duvidas')
+elementosDuvida.forEach(function (duvidas) { 
+    duvidas.addEventListener('click', function () { 
+        duvidas.classList.toggle('ativa')
     })
 })
